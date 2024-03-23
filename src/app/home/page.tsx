@@ -12,9 +12,8 @@ import { ModeToggle } from "@/components/ui/mode-toggle";
 
 function Page() {
   return (
-    <div className="space-y-10">
-      <ModeToggle />
-      <div className="flex justify-center mt-[80px]">
+    <div className="grid grid-cols-10 mt-[80px] mx-[20%] border-black border-2">
+      <div className="col-span-7 w-full border-r-2 border-black">
         <div className="w-fit h-fit border-gray-200 border-[1px] rounded-xl">
           <Table>
             <TableHeader>
@@ -77,15 +76,15 @@ function Page() {
             </TableBody>
           </Table>
         </div>
+        <div className="">Đã học 10000000 thẻ trong 1 phút hôm nay</div>
       </div>
-      <TableCaption className="flex justify-center ">
-        Đã học 10000000 thẻ trong 1 phút hôm nay
-      </TableCaption>
+
       {/* thông tin thòi gian dùng flashy */}
-      <div className="flex justify-center space-x-5">
+      <div className="col-span-3">
+        <ModeToggle />
         <div className="">Daily average: 100</div>
         <div className="">Daily learned: 100</div>
-        <div className="">Daily Longest streak: 100</div>
+        <div className="">Longest streak: 100</div>
         <div className="">Current streak: 100</div>
       </div>
     </div>
