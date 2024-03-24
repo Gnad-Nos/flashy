@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Get the current branch name
+current_branch=$(git symbolic-ref --short HEAD)
+
+# Check if the current branch is "develop"
+if [ "$current_branch" = "main" ]; then
+	echo "You are trying to push to the 'main' branch. Pushes to this branch are not allowed."
+	exit 1
+fi
+
+# If the current branch is not "develop", allow the push
+exit 0
