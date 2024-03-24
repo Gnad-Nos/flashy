@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "plugin:jsdoc/recommended-typescript"
+  ],
+  "rules": {
+    "no-unused-vars": "error"
+  }
 }
