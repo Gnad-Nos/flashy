@@ -26,7 +26,7 @@ function Page() {
             <TableBody>
               <TableRow>
                 <TableCell className="font-medium">
-                  Đây là một cái tên rất dài
+                  1 hundred Vietnamese letters
                 </TableCell>
                 <TableCell className="text-right">100</TableCell>
                 <TableCell className="text-right">100</TableCell>
@@ -36,7 +36,7 @@ function Page() {
             <TableBody>
               <TableRow>
                 <TableCell className="font-medium">
-                  Đây là một cái tên rất dài
+                  1 hundred Vietnamese letters
                 </TableCell>
                 <TableCell className="text-right">100</TableCell>
                 <TableCell className="text-right">100</TableCell>
@@ -46,7 +46,7 @@ function Page() {
             <TableBody>
               <TableRow>
                 <TableCell className="font-medium">
-                  Đây là một cái tên rất dài
+                  1 hundred Vietnamese letters
                 </TableCell>
                 <TableCell className="text-right">100</TableCell>
                 <TableCell className="text-right">100</TableCell>
@@ -56,7 +56,7 @@ function Page() {
             <TableBody>
               <TableRow>
                 <TableCell className="font-medium">
-                  Đây là một cái tên rất dài
+                  1 hundred Vietnamese letters
                 </TableCell>
                 <TableCell className="text-right">100</TableCell>
                 <TableCell className="text-right">100</TableCell>
@@ -66,7 +66,7 @@ function Page() {
             <TableBody>
               <TableRow>
                 <TableCell className="font-medium">
-                  Đây là một cái tên rất dài
+                  1 hundred Vietnamese letters
                 </TableCell>
                 <TableCell className="text-right">100</TableCell>
                 <TableCell className="text-right">100</TableCell>
@@ -75,7 +75,7 @@ function Page() {
             </TableBody>
           </Table>
         </div>
-        <div className="">Đã học 10000000 thẻ trong 1 phút hôm nay</div>
+        <div className="">Learned 10000000 card in 1 minutes today</div>
       </div>
 
       {/* thông tin thòi gian dùng flashy */}
