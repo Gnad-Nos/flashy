@@ -8,20 +8,19 @@ import {
   TableRow,
   TableCaption,
 } from "@/components/ui/table";
-import { ModeToggle } from "@/components/ui/mode-toggle";
 
 function Page() {
   return (
-    <div className="grid grid-cols-10 mt-[80px] mx-[20%] border-black border-2">
-      <div className="col-span-7 w-full border-r-2 border-black">
+    <div className="grid grid-cols-10 mt-[40px] mx-[20%]">
+      <div className="col-span-7 w-full ">
         <div className="w-fit h-fit border-gray-200 border-[1px] rounded-xl">
           <Table>
             <TableHeader>
               <TableRow>
-                <TableHead className="w-[300px]">Bộ thẻ</TableHead>
-                <TableHead className="text-right">Mới</TableHead>
-                <TableHead className="text-right">Học</TableHead>
-                <TableHead className="text-right">Đến hạn</TableHead>
+                <TableHead className="w-[300px]">Flash card</TableHead>
+                <TableHead className="text-right">New</TableHead>
+                <TableHead className="text-right">Repeat</TableHead>
+                <TableHead className="text-right">Due</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -81,7 +80,6 @@ function Page() {
 
       {/* thông tin thòi gian dùng flashy */}
       <div className="col-span-3">
-        <ModeToggle />
         <div className="">Daily average: 100</div>
         <div className="">Daily learned: 100</div>
         <div className="">Longest streak: 100</div>
